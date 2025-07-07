@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Editor/IDE specific files
+.vscode/
+.idea/
+.DS_Store
+
+# Log files
+*.log
+
+# Database files (example for SQLite)
+db.sqlite3
+
+# Sensitive information
+.env

@@ -1,0 +1,17 @@
+# Description: This file is used to configure the ngrok Agent for tunneling.
+# Version of the ngrok Agent Configuration file. Required.
+version: 3
+
+# Agent Configuration. Required.
+agent:
+  authtoken: # Your ngrok authtoken
+
+# Endpoint Definitions
+endpoints:
+  - name: websocket
+    description: websocket endpoint
+    url: #address of the websocket endpoint
+    upstream:
+      url: 8000
+      protocol: http1
+ 
